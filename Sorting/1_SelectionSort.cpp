@@ -60,3 +60,10 @@ int main()
     array.display_data();
     return 0;
 }
+
+
+// Time Complexity : 
+
+// Best   ------> O(n^2)
+// Average -----> O(n^2)
+// Worst -------> O(n^2)
