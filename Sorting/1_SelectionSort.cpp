@@ -46,7 +46,6 @@ void Sort ::selectionSort()
 }
 void Sort ::display_data()
 {
-    cout << "The sorted array is : " << endl;
     for (int i = 0; i < n; i++)
     {
         cout << arr[i] << " ";
@@ -57,6 +56,7 @@ int main()
     Sort array;
     array.read_data();
     array.selectionSort();
+    cout << "The sorted array is : " << endl;
     array.display_data();
     return 0;
 }
