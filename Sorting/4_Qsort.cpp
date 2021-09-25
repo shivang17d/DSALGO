@@ -8,7 +8,7 @@ public:
     void read_data();
     void swap(int* x,int* y);
     int partition(int low ,int high);
-    void quikSort(int low ,int high);
+    void quickSort(int low ,int high);
     void display_data();
 };
 void Sort ::read_data()
@@ -50,14 +50,14 @@ int Sort ::partition(int low ,int high)
     swap(&arr[low],&arr[j]);
     return j;
 }
-void Sort ::quikSort(int low ,int high)
+void Sort ::quickSort(int low ,int high)
 {
     // This if condition is used for atleast two element check
     if(low < high)
     {
         int pivot = partition(low,high);
-        quikSort(low,pivot-1);
-        quikSort(pivot+1,high);
+        quickSort(low,pivot-1);
+        quickSort(pivot+1,high);
     }
 }
 void Sort ::display_data()
@@ -71,7 +71,7 @@ int main()
 {
     Sort array;
     array.read_data();
-    array.quikSort(0,array.n-1);
+    array.quickSort(0,array.n-1);
     cout<<"The sorted array is : "<<endl;
     array.display_data();
     return 0;
@@ -80,3 +80,13 @@ int main()
 // Best ->	  Ω(n log(n))
 // Average -> θ(n log(n))	
 // Worst ->   O(n^2)
+
+
+
+
+
+
+
+
+
+
