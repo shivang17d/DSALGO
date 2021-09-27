@@ -52,6 +52,6 @@ int main()
 
 
 // Time Complexity
-// Best    : O(n)
-// Average : O(n^2)
+// Best    : Ω(n)
+// Average : θ(n^2)
 // Worst   : O(n^2)
