@@ -1,3 +1,5 @@
+//  Implementation of queue using Array
+
 #include <iostream>
 using namespace std;
 #define SIZE 5
