@@ -1,3 +1,5 @@
+// Linked List implementation of Queue Data Structure
+
 #include <iostream>
 using namespace std;
 class Node
