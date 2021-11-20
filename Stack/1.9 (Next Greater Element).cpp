@@ -1,3 +1,5 @@
+//  https://www.hackerrank.com/contests/second/challenges/next-greater-element/problem/
+
 #include <bits/stdc++.h>
 using namespace std;
 
